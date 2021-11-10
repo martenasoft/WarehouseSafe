@@ -1,0 +1,19 @@
+{
+    "name": "MartenaSoft-warehouse/safe",
+    "description": "Warehouse Safe Bundle",
+    "type": "bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MartenaSoft\\Safe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anisimov Kostya",
+            "email": "kostiaGm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
