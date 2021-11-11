@@ -2,7 +2,7 @@
 
 namespace MartenaSoft\WarehouseSafe\Service;
 
-use App\Repository\SafeRepository;
+use MartenaSoft\WarehouseSafe\Repository\SafeRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use MartenaSoft\WarehouseReports\Entity\Operation;
 

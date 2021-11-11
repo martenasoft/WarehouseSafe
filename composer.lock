@@ -4,84 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdb8a8200aa6eba698f4e9e4bf94d9f0",
-    "packages": [
-        {
-            "name": "martena-soft/warehouse-common",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/martenasoft/WarehouseCommon.git",
-                "reference": "f61318cba89eb3f961b36b16b04646ee34c3c13a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/martenasoft/WarehouseCommon/zipball/f61318cba89eb3f961b36b16b04646ee34c3c13a",
-                "reference": "f61318cba89eb3f961b36b16b04646ee34c3c13a",
-                "shasum": ""
-            },
-            "type": "bundle",
-            "autoload": {
-                "psr-4": {
-                    "MartenaSoft\\WarehouseCommon\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anisimov Kostya",
-                    "email": "kostiaGm@gmail.com"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/martenasoft/WarehouseCommon/issues",
-                "source": "https://github.com/martenasoft/WarehouseCommon/tree/1.1.1"
-            },
-            "time": "2021-11-10T22:43:32+00:00"
-        },
-        {
-            "name": "martena-soft/warehouse-reports",
-            "version": "1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/martenasoft/WarehouseReports.git",
-                "reference": "8da79d7b6f02667ad9d1706d8c15f09ecf1555fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/martenasoft/WarehouseReports/zipball/8da79d7b6f02667ad9d1706d8c15f09ecf1555fa",
-                "reference": "8da79d7b6f02667ad9d1706d8c15f09ecf1555fa",
-                "shasum": ""
-            },
-            "require": {
-                "martena-soft/warehouse-common": "^1.1"
-            },
-            "type": "bundle",
-            "autoload": {
-                "psr-4": {
-                    "MartenaSoft\\WarehouseReports\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anisimov Kostya",
-                    "email": "kostiaGm@gmail.com"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/martenasoft/WarehouseReports/issues",
-                "source": "https://github.com/martenasoft/WarehouseReports/tree/1.1.3"
-            },
-            "time": "2021-11-11T05:36:04+00:00"
-        }
-    ],
+    "content-hash": "1af52d3eb8d2c27b18004014a3eda3f8",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
