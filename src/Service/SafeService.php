@@ -4,7 +4,7 @@ namespace MartenaSoft\WarehouseSafe\Service;
 
 use App\Repository\SafeRepository;
 use Doctrine\ORM\EntityManagerInterface;
-use MartenaSoft\WarehouseSafe\Entity\Operation;
+use MartenaSoft\WarehouseReports\Entity\Operation;
 
 class SafeService
 {
