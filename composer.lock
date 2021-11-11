@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc248116fe7d4e4ac278411b2abc7b67",
+    "content-hash": "bdb8a8200aa6eba698f4e9e4bf94d9f0",
     "packages": [
         {
             "name": "martena-soft/warehouse-common",
@@ -41,42 +41,6 @@
                 "source": "https://github.com/martenasoft/WarehouseCommon/tree/1.1.1"
             },
             "time": "2021-11-10T22:43:32+00:00"
-        },
-        {
-            "name": "martena-soft/warehouse-product",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/martenasoft/WarehouseProduct.git",
-                "reference": "16381303cdb79cb8d6b11b3d8ee1975a4eaf2f1c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/martenasoft/WarehouseProduct/zipball/16381303cdb79cb8d6b11b3d8ee1975a4eaf2f1c",
-                "reference": "16381303cdb79cb8d6b11b3d8ee1975a4eaf2f1c",
-                "shasum": ""
-            },
-            "type": "bundle",
-            "autoload": {
-                "psr-4": {
-                    "MartenaSoft\\WarehouseProduct\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anisimov Kostya",
-                    "email": "kostiaGm@gmail.com"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/martenasoft/WarehouseProduct/issues",
-                "source": "https://github.com/martenasoft/WarehouseProduct/tree/1.1.1"
-            },
-            "time": "2021-11-10T22:49:22+00:00"
         },
         {
             "name": "martena-soft/warehouse-reports",
