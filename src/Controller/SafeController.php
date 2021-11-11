@@ -3,7 +3,7 @@
 namespace MartenaSoft\WarehouseSafe\Controller;
 
 use MartenaSoft\WarehouseSafe\Entity\ApplaySafe;
-use App\Entity\Product;
+use MartenaSoft\WarehouseProduct\Entity\Product;
 use MartenaSoft\WarehouseSafe\Entity\Safe;
 use MartenaSoft\WarehouseSafe\Form\ApplaySafeType;
 use MartenaSoft\WarehouseSafe\Form\SafeType;

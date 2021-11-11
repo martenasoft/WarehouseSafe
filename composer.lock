@@ -1,0 +1,127 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bc248116fe7d4e4ac278411b2abc7b67",
+    "packages": [
+        {
+            "name": "martena-soft/warehouse-common",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/martenasoft/WarehouseCommon.git",
+                "reference": "f61318cba89eb3f961b36b16b04646ee34c3c13a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/martenasoft/WarehouseCommon/zipball/f61318cba89eb3f961b36b16b04646ee34c3c13a",
+                "reference": "f61318cba89eb3f961b36b16b04646ee34c3c13a",
+                "shasum": ""
+            },
+            "type": "bundle",
+            "autoload": {
+                "psr-4": {
+                    "MartenaSoft\\WarehouseCommon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anisimov Kostya",
+                    "email": "kostiaGm@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/martenasoft/WarehouseCommon/issues",
+                "source": "https://github.com/martenasoft/WarehouseCommon/tree/1.1.1"
+            },
+            "time": "2021-11-10T22:43:32+00:00"
+        },
+        {
+            "name": "martena-soft/warehouse-product",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/martenasoft/WarehouseProduct.git",
+                "reference": "16381303cdb79cb8d6b11b3d8ee1975a4eaf2f1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/martenasoft/WarehouseProduct/zipball/16381303cdb79cb8d6b11b3d8ee1975a4eaf2f1c",
+                "reference": "16381303cdb79cb8d6b11b3d8ee1975a4eaf2f1c",
+                "shasum": ""
+            },
+            "type": "bundle",
+            "autoload": {
+                "psr-4": {
+                    "MartenaSoft\\WarehouseProduct\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anisimov Kostya",
+                    "email": "kostiaGm@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/martenasoft/WarehouseProduct/issues",
+                "source": "https://github.com/martenasoft/WarehouseProduct/tree/1.1.1"
+            },
+            "time": "2021-11-10T22:49:22+00:00"
+        },
+        {
+            "name": "martena-soft/warehouse-reports",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/martenasoft/WarehouseReports.git",
+                "reference": "87bf8778db88b14eb495fcbc7cf75d67714a8128"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/martenasoft/WarehouseReports/zipball/87bf8778db88b14eb495fcbc7cf75d67714a8128",
+                "reference": "87bf8778db88b14eb495fcbc7cf75d67714a8128",
+                "shasum": ""
+            },
+            "type": "bundle",
+            "autoload": {
+                "psr-4": {
+                    "MartenaSoft\\WarehouseReports\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anisimov Kostya",
+                    "email": "kostiaGm@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/martenasoft/WarehouseReports/issues",
+                "source": "https://github.com/martenasoft/WarehouseReports/tree/1.1.1"
+            },
+            "time": "2021-11-11T05:12:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
