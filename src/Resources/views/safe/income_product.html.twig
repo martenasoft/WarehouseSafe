@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Income Product{% endblock %}
+
+{% block body %}
+    <h1>Income Product</h1>
+
+    <div class="alert alert-light">
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+        <p>{{ product.name }}
+            {{
+                product.status.safeMoneyOperation == constant('MartenaSoft\\WarehouseReports\\Entity\\Operation::TYPE_ADD') ? 'Income' :
+                product.status.safeMoneyOperation == constant('MartenaSoft\\WarehouseReports\\Entity\\Operation::TYPE_DEDUCT') ? 'Deduct'
+            }}
+            {{ product.boughtPrice  }}
+        </p>
+
+        <hr>
+        <button class="btn btn-success">Save</button>
+    {{ form_end(form) }}
+    </div>
+
+{% endblock %}

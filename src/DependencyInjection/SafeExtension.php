@@ -2,6 +2,7 @@
 
 namespace MartenaSoft\WarehouseSafe\DependencyInjection;
 
+use MartenaSoft\WarehouseSafe\SafeBundle;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
@@ -19,7 +20,7 @@ class SafeExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
         $config['projectDir'] = $container->getParameter('kernel.project_dir');
-        $container->setParameter(ProductBundle::getConfigName(), $config);
+        $container->setParameter(SafeBundle::getConfigName(), $config);
         $container->setParameter('twig.globals', $config);
 
         $loader = new YamlFileLoader(

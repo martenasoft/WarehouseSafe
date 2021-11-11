@@ -48,7 +48,7 @@ class SafeController extends AbstractController
             return $this->redirectToRoute('safe_index', [], Response::HTTP_SEE_OTHER);
         }
 
-        return $this->renderForm('safe/new.html.twig', [
+        return $this->renderForm('@Safe/safe/new.html.twig', [
             'safe' => $safe,
             'form' => $form,
         ]);
@@ -59,7 +59,7 @@ class SafeController extends AbstractController
      */
     public function show(Safe $safe): Response
     {
-        return $this->render('safe/show.html.twig', [
+        return $this->render('@Safe/safe/show.html.twig', [
             'safe' => $safe,
         ]);
     }
@@ -81,7 +81,7 @@ class SafeController extends AbstractController
             return $this->redirectToRoute('safe_index', [], Response::HTTP_SEE_OTHER);
         }
 
-        return $this->renderForm('safe/edit.html.twig', [
+        return $this->renderForm('@Safe/safe/edit.html.twig', [
             'safe' => $safe,
             'form' => $form,
         ]);
@@ -120,7 +120,7 @@ class SafeController extends AbstractController
             return $this->redirectToRoute('product_index');
         }
 
-        return $this->render('safe/income_product.html.twig', [
+        return $this->render('@Safe/safe/income_product.html.twig', [
             'product' => $product,
             'form' => $applaySafeType->createView()
         ]);

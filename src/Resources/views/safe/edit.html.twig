@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Safe{% endblock %}
+
+{% block body %}
+    <h1>Edit Safe</h1>
+
+    {{ include('safe/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('safe_index') }}">back to list</a>
+
+    {{ include('safe/_delete_form.html.twig') }}
+{% endblock %}
